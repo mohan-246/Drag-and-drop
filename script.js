@@ -1,3 +1,14 @@
+/*INSTRUCTIONS:
+
+1. You can drag the items from any container and move it.
+2. The items are responsive to hover and drag.
+3. On drag the items change background color.
+4. On hove the items scale.
+5. On successful dropping from one container to anothe you get a success alert in the bottom right corner.
+6. The success alert automatically disappears in 1000ms and you can also close in.
+7. There is a reset button on the bottom of the page which you can use to reset the containers to the inital state.
+
+*/
 const draggables = document.querySelectorAll('.draggable')
 const containers = document.querySelectorAll('.container')
 let alertdiv=document.querySelector('.alert');
