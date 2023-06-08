@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background-color: #303841;
+}
+
+.big-container{
+  display: flex;
+}
+
+.container {
+  background-color: #3A4750;
+  padding: 1rem;
+  margin-top: 1rem;
+  height: 80vh;
+  width:46%;
+  margin:10px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.draggable {
+  padding: 1rem;
+  border:none;
+  cursor: move;
+  background-color: #EA9215;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.draggable:hover{
+  scale: 1.03;
+}
+
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.draggable.dragging {
+  background-color: #5e3c0d;
+}
+
+button{
+  height:5%;
+  width:10%;
+  position:absolute;
+  bottom: 5%;
+  left:45%;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #3A4750;
+}
+
+.alert {
+  padding: 20px;
+  color: #40d761;
+  background-color: #40d761;
+  color: white;
+  margin-bottom: 15px;
+  display:none;
+  border-radius: 20px 20px 20px 20px;
+  position:absolute;
+  height: 10px;
+  left:80%;
+  top:80%;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
